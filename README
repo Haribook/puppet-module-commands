@@ -1,0 +1,26 @@
+-> install a puppet module
+   puppet module install <ModulaName>
+
+-> insall a puppet module with specified version 
+   puppet module install <ModuleName> -v <version>
+
+-> List all the installed puppet modules
+   puppet module list
+
+-> Search for puppet modules on puppet forge
+   puppet module search <moduleName>
+
+-> Generate a template for the new puppet module creation
+   puppet modelue generate namespace/modulename
+
+-> apply puppet manifest on the puppet master
+   puppet apply manifestname.pp
+ 
+-> validate puppet manifest file syntax
+   puppet parser validate manifestfile
+
+-> uninstall a puppet module 
+   puppet module uninstall <ModuleName>
+
+-> Puppet module ininstall forcely
+   puppet module uninistall --force <ModuleName>
