@@ -24,3 +24,6 @@
 
 -> Puppet module ininstall forcely
    puppet module uninistall --force <ModuleName>
+
+-> Install a puppet module in a specified location
+   puppet module install --modulepath=<Desired path> <moduleName>
