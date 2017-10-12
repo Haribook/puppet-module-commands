@@ -11,7 +11,7 @@
    puppet module search <moduleName>
 
 -> Generate a template for the new puppet module creation
-   puppet modelue generate namespace/modulename
+   puppet module generate namespace/modulename
 
 -> apply puppet manifest on the puppet master
    puppet apply manifestname.pp
