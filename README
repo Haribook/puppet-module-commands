@@ -22,7 +22,7 @@
 -> uninstall a puppet module 
    puppet module uninstall <ModuleName>
 
--> Puppet module ininstall forcely
+-> Puppet module uninstall forcely
    puppet module uninistall --force <ModuleName>
 
 -> Install a puppet module in a specified location
